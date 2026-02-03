@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/Leogabriele/java-tomcat-maven-example.git'
+                git url: 'https://github.com/brightchild200/java-tomcat-maven-example.git'
             }
         }
 
